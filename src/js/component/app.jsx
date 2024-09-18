@@ -1,4 +1,3 @@
-// App.jsx
 import React, { useState } from "react";
 import TodoList from "./todoList";
 import Input from "./input"; 

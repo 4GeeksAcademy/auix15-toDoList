@@ -1,4 +1,3 @@
-// TodoItem.jsx
 import React from 'react';
 
 const TodoItem = ({ id, text, deleteTask }) => {
