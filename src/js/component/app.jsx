@@ -1,7 +1,7 @@
 // App.jsx
 import React, { useState } from "react";
 import TodoList from "./todoList";
-import Input from "./input"; // Cambiamos el nombre del componente
+import Input from "./input"; 
 
 const App = () => {
   const [tasks, setTasks] = useState([]);
@@ -22,6 +22,7 @@ const App = () => {
     <div className="app-container">
       <h1>Lista de Tareas</h1>
       <Input addTask={addTask} />
+      {/* Expresión para contar las tareas */}
       <p>{tasks.length} {tasks.length === 1 ? "tarea" : "tareas"} pendientes</p>
       <TodoList tasks={tasks} removeTask={removeTask} />
     </div>

@@ -13,7 +13,7 @@ const TodoList = ({ tasks, removeTask }) => {
             key={task.id}
             id={task.id}
             text={task.text}
-            deleteTask={removeTask} // Usamos la prop removeTask correctamente
+            deleteTask={removeTask}
           />
         ))
       )}
